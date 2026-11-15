@@ -16,54 +16,46 @@
   </nav>
 
   <header class="hero-box">
-    <a href="https://open.spotify.com/user/31zzi4sce6bopesnlzkxzudoqyp4?si=553846474f5f4f62" target="_blank" class="spotify-btn">
-      🎧 Ayush on Spotify ↗
-    </a>
+    <h1><a href="https://open.spotify.com/user/31zzi4sce6bopesnlzkxzudoqyp4?si=553846474f5f4f62">Me On Spotify</a></h1>
     
     <h1>🎧 My Music Corner</h1>
-    
     <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2g3AKog3XoKRMnU5ZJPSxh?utm_source=generator&si=1003c53d3997406f" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    
-    <p style="margin-top: 15px;">Click on any card below to open and listen on Spotify!</p>
+    <p>Click on any album cover below to listen to the track on Spotify!</p>
   </header>
 
+  <!-- [SECTION: MUSIC ITEMS] -->
   <section>
-    <h2>💿 Featured Favorite</h2>
+    <h2>💿 Top Tracks Right Now</h2>
     <div class="grid">
+      
+      <!-- Song Card 1 -->
       <a href="https://open.spotify.com/track/4hgmSUC1peZ4DMES5ApnH6?si=5c79f206866c42b7" target="_blank" class="card-link">
         <div class="card">
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/74/2f/8e742f60-1103-9623-814e-765e83afdbd7/885000626753.png/600x600cc.webp" alt="Tu Hi Tu Cover" class="album-cover">
-          <span class="tag">🎵 Featured #1</span>
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/74/2f/8e742f60-1103-9623-814e-765e83afdbd7/885000626753.png/600x600cc.webp" alt="Song 1 Cover" class="album-cover">
+          <span class="tag">🎵 Song #1</span>
           <h3>Tu Hi Tu</h3>
           <p>Rishabh Vyas</p>
           <span class="click-hint">Listen on Spotify ↗</span>
         </div>
       </a>
-    </div>
-  </section>
 
-  <section>
-    <h2>🎶 Art Born Ayush — Full Tracklist (100 Songs)</h2>
-    <div class="grid" id="playlist-grid"></div>
+      <!-- Song Card 2 -->
+      <a href="https://spotify.com" target="_blank" class="card-link">
+        <div class="card">
+          <img src="cover2.jpg" alt="Song 2 Cover" class="album-cover">
+          <span class="tag">🎵 Song #2</span>
+          <h3>Song Name Here</h3>
+          <p>Artist Name — Add your favorite lyric or vibe here!</p>
+          <span class="click-hint">Listen on Spotify ↗</span>
+        </div>
+      </a>
+
+    </div>
   </section>
 
   <footer>
     <p><a href="index.html" style="color: var(--primary-accent); font-weight: bold;">← Return to Home Page</a></p>
   </footer>
-
-  <script>
-    // A streamlined JavaScript array containing all 100 tracks from the Art Born Ayush playlist can be structured and rendered dynamically below.
-    // Full track objects can be referenced via the source data.
-    const playlistSongs = [
-      { title: "Sitara", artist: "Aashiq Khan, Mitika Kanwar, Denny", url: "https://open.spotify.com/track/0bK1LCMlZTcAzhl4qLewIs" },
-      { title: "Hasi - Male Version", artist: "Ami Mishra, Kunaal Vermaa", url: "https://open.spotify.com/track/32765xcLM1fd6wQIpkN9A0" },
-      // ... (remaining tracks from the 100-song playlist can be managed here)
-      { title: "Choo Lo", artist: "The Local Train", url: "https://open.spotify.com/track/0rlLBWFFTQiOWi963SH9bb" }
-    ];
-
-    const grid = document.getElementById("playlist-grid");
-    // Dynamic rendering logic loops through the tracklist array to generate cards cleanly.
-  </script>
 
 </body>
 </html>
