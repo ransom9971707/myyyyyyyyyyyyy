@@ -75,9 +75,8 @@ section, header {
 }
 
 h1 {
-   font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 500;
+   font-family: "Sail", system-ui;
+  font-weight: 400;
   font-style: normal;
    color: var(--primary-accent);
    margin-top: 0;
@@ -85,8 +84,10 @@ h1 {
 }
 
 h2 {
-   font-family: "Arizonia", cursive;
-   font-weight: 400;
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
    color: var(--primary-accent);
    font-size: 1.4rem;
    margin-bottom: 15px;
