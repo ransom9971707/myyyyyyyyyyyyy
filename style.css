@@ -1,6 +1,8 @@
 /* =========================================
    [THEME SETTINGS] - Soft Blue & Cool Grey
    ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
 :root {
   --bg-color: #f4f7fa;        /* Soft misty grey-blue background */
   --card-bg: #ffffff;         /* Crisp white cards */
@@ -73,9 +75,12 @@ section, header {
 }
 
 h1 {
-  color: var(--primary-accent);
-  margin-top: 0;
-  font-size: 2rem;
+   font-family: "Oooh Baby", cursive;
+   font-weight: 400;
+   font-style: normal;
+   color: var(--primary-accent);
+   margin-top: 0;
+   font-size: 2rem;
 }
 
 h2 {
