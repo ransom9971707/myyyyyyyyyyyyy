@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✨ My Cozy Space</title>
+  <style>
+    /* =========================================
+       [THEME SETTINGS] - Easy to tweak anytime!
+       ========================================= */
+    :root {
+      --bg-color: #fff9fb;        /* Soft blush cream background */
+      --card-bg: #ffffff;         /* Crisp white cards */
+      --primary-accent: #ff8fab;  /* Cute pastel pink */
+      --secondary-accent: #a2d2ff;/* Soft sky blue */
+      --text-main: #4a404f;       /* Soft dark plum (easier on eyes than black) */
+      --text-muted: #7d6e83;      /* Muted purple-gray */
+      --border-color: #ffd6e0;    /* Soft pink border */
+    }
+
+    body {
+      font-family: 'Quicksand', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+      background-size: 20px 20px; /* Subtle cute polka-dot grid */
+      color: var(--text-main);
+      line-height: 1.6;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 25px 20px;
+    }
+
+    /* =========================================
+       [NAVIGATION BAR]
+       ========================================= */
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: var(--card-bg);
+      padding: 12px 20px;
+      border-radius: 50px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 12px rgba(255, 143, 171, 0.15);
+      margin-bottom: 35px;
+    }
+
+    nav a {
+      color: var(--text-main);
+      background-color: #fff0f3;
+      padding: 6px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--primary-accent);
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    /* =========================================
+       [CARDS & SECTIONS]
+       ========================================= */
+    section, header {
+      margin-bottom: 35px;
+    }
+
+    .hero-box {
+      background: var(--card-bg);
+      border: 2px solid var(--border-color);
+      border-radius: 24px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(255, 143, 171, 0.12);
+    }
+
+    h1 {
+      color: #ff5d8f;
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      color: #ff5d8f;
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 20px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 10px rgba(255, 143, 171, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--primary-accent);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--text-main);
+      font-size: 1.15rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0284c7;
+      font-size: 0.8rem;
+      font-weight: bold;
+      padding: 3px 10px;
+      border-radius: 12px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 2px dashed var(--border-color);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- [SECTION: NAVIGATION] -->
+  <nav>
+    <a href="#about">🌸 About</a>
+    <a href="#favorites">🍓 Favorites</a>
+    <a href="#scrapbook">📸 Scrapbook</a>
+    <a href="#diary">💌 Thoughts</a>
+  </nav>
+
+  <!-- [SECTION: HERO / INTRO] -->
+  <header id="about" class="hero-box">
+    <h1>✨ Welcome to My Little Corner ✨</h1>
+    <p>Hi! This is my personal space on the web where I keep everything I love—songs, shows, random thoughts, and cute finds.</p>
+  </header>
+
+  <!-- [SECTION: FAVORITES] -->
+  <section id="favorites">
+    <h2>🍓 Current Obsessions</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <span class="tag">🎵 Music</span>
+        <h3>On Repeat</h3>
+        <p>Add your favorite song, artist, or cozy playlist here.</p>
+      </div>
+
+      <div class="card">
+        <span class="tag">🎬 Watchlist</span>
+        <h3>Shows & Movies</h3>
+        <p>Write a quick note about an anime, movie, or show you love.</p>
+      </div>
+
+      <div class="card">
+        <span class="tag">🎮 Hobbies</span>
+        <h3>Fun & Games</h3>
+        <p>Share a game you're playing, a book you're reading, or a hobby.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- [SECTION: SCRAPBOOK / GALLERY] -->
+  <section id="scrapbook">
+    <h2>📸 Mini Scrapbook</h2>
+    <div class="card">
+      <p>Ready for photos, art, or aesthetic links whenever you want to add them!</p>
+    </div>
+  </section>
+
+  <!-- [SECTION: THOUGHTS / DIARY] -->
+  <section id="diary">
+    <h2>💌 Random Thoughts</h2>
+    <div class="card">
+      <span class="tag">✨ First Post</span>
+      <h3>Building My Site!</h3>
+      <p>Just set up my cute light-mode website. Can't wait to fill it up with all my favorite things.</p>
+    </div>
+  </section>
+
+  <!-- [SECTION: FOOTER] -->
+  <footer>
+    <p>Made with 💖 • Updated whenever I feel like it</p>
+  </footer>
+
+</body>
+</html>
