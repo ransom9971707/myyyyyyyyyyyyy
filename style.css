@@ -1,7 +1,7 @@
 /* =========================================
    [THEME SETTINGS] - Soft Blue & Cool Grey
    ========================================= */
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Oooh+Baby&display=swap');
 
 :root {
   --bg-color: #f4f7fa;        /* Soft misty grey-blue background */
@@ -84,6 +84,9 @@ h1 {
 }
 
 h2 {
+   font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
   color: var(--primary-accent);
   font-size: 1.4rem;
   margin-bottom: 15px;
