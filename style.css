@@ -1,7 +1,7 @@
 /* =========================================
    [THEME SETTINGS] - Soft Blue & Cool Grey
    ========================================= */
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Sail&display=swap');
 
 :root {
   --bg-color: #f4f7fa;        /* Soft misty grey-blue background */
@@ -75,7 +75,7 @@ section, header {
 }
 
 h1 {
-   font-family: "Oooh Baby", cursive;
+   font-family: "Sail", system-ui;
    font-weight: 400;
    font-style: normal;
    color: var(--primary-accent);
