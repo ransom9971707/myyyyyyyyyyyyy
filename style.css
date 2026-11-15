@@ -1,7 +1,7 @@
 /* =========================================
    [THEME SETTINGS] - Soft Blue & Cool Grey
    ========================================= */
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@400..700&family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Sail&display=swap');
 
 :root {
   --bg-color: #f4f7fa;        /* Soft misty grey-blue background */
@@ -14,7 +14,9 @@
 }
 
 body {
-  font-family: 'Quicksand', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: var(--bg-color);
   background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
   background-size: 20px 20px;
@@ -80,7 +82,7 @@ h1 {
   font-style: normal;
    color: var(--primary-accent);
    margin-top: 0;
-   font-size: 2rem;
+   font-size: 2.3rem;
 }
 
 h2 {
@@ -89,7 +91,7 @@ h2 {
    font-weight: 500;
    font-style: normal;
    color: var(--primary-accent);
-   font-size: 1.4rem;
+   font-size: 1.6rem;
    margin-bottom: 15px;
 }
 
@@ -97,6 +99,7 @@ h3 {
    font-family: "Arizonia", cursive;
   font-weight: 400;
   font-style: normal;
+   font-size: 1.5rem;
       }
 .grid {
   display: grid;
