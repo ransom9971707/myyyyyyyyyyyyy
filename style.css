@@ -1,7 +1,7 @@
 /* =========================================
    [THEME SETTINGS] - Soft Blue & Cool Grey
    ========================================= */
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@400..700&family=Sail&display=swap');
 
 :root {
   --bg-color: #f4f7fa;        /* Soft misty grey-blue background */
@@ -75,9 +75,10 @@ section, header {
 }
 
 h1 {
-   font-family: "Sail", system-ui;
-   font-weight: 400;
-   font-style: normal;
+   font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
    color: var(--primary-accent);
    margin-top: 0;
    font-size: 2rem;
