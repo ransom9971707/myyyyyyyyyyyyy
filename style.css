@@ -85,11 +85,10 @@ h1 {
 
 h2 {
    font-family: "Arizonia", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--primary-accent);
-  font-size: 1.4rem;
-  margin-bottom: 15px;
+   font-weight: 400;
+   color: var(--primary-accent);
+   font-size: 1.4rem;
+   margin-bottom: 15px;
 }
 
 .grid {
