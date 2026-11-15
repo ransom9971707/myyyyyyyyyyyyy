@@ -91,6 +91,11 @@ h2 {
    margin-bottom: 15px;
 }
 
+h3 {
+   font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+      }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
